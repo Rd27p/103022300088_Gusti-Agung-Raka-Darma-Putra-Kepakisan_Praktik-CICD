@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>ContohProjectMaven</groupId>
-  <artifactId>103022300088_Gusti-Agung-Raka-Darma-Putra-Kepakisan_Praktik-CICD</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <groupId>com.github.rd27p</groupId>
+  <artifactId>103022300088-gusti-agung-raka-darma-putra-kepakisan-praktik-cicd</artifactId>
+  <version>0.1.0</version>
 
 <dependencies>
   <dependency>
@@ -11,8 +11,8 @@
     <version>4.11</version> <!-- Or whatever JUnit you're using. -->
 	</dependency>
 </dependencies>
-  
-  <distributionManagement>
+
+<distributionManagement>
     <repository>
       <id>github</id>
       <name>GitHub Packages</name>
@@ -23,9 +23,8 @@
   <properties>
     <maven.compiler.source>1.8</maven.compiler.source>
     <maven.compiler.target>1.8</maven.compiler.target>
-    <sonar.organization>akunmkepl</sonar.organization>
+    <sonar.organization>rd27p</sonar.organization>
     <sonar.host.url>https://sonarcloud.io</sonar.host.url>
  </properties>
-  
-</project>
 
+</project>  
